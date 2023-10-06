@@ -5,7 +5,7 @@ local ThemeManager = {} do
 
 	ThemeManager.Library = nil
 	ThemeManager.BuiltInThemes = {
-		['Mura']         = { 1, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1c1c1c","AccentColor":"ff0000","BackgroundColor":"141414","OutlineColor":"323232"}') },
+		['XBaFa']         = { 1, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1c1c1c","AccentColor":"e6a6ff","BackgroundColor":"141414","OutlineColor":"323232"}') },
 		['Yumi']           	= { 2, httpService:JSONDecode('{"FontColor":"ffe9f8","MainColor":"242330","AccentColor":"ffcaee","BackgroundColor":"1d1b26","OutlineColor":"2f232e"}') },
 		['Default'] 		= { 3, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1c1c1c","AccentColor":"0055ff","BackgroundColor":"141414","OutlineColor":"323232"}') },
 		['BBot'] 			= { 4, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1e1e1e","AccentColor":"7e48a3","BackgroundColor":"232323","OutlineColor":"141414"}') },
